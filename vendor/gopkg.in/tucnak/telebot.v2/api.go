@@ -63,7 +63,7 @@ func (b *Bot) sendFiles(
 
 			_, err = io.Copy(part, file)
 			return err
-		} (); err != nil {
+		}(); err != nil {
 			return nil, wrapSystem(err)
 		}
 

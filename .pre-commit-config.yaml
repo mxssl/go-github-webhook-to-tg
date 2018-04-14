@@ -2,5 +2,11 @@
   sha: HEAD
   hooks:
     - id: go-fmt
+      exclude: '^vendor/'
+      files: 'main.go'
     - id: go-vet
+      exclude: '^vendor/'
+      files: 'main.go'
     - id: go-lint
+      exclude: '^vendor/'
+      files: 'main.go'
