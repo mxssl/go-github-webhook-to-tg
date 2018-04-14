@@ -1,5 +1,7 @@
 # GitHub webhooks cather in the rye!
 
+[![Build Status](https://travis-ci.org/mxssl/go-github-webhook-to-tg.svg?branch=master)](https://travis-ci.org/mxssl/go-github-webhook-to-tg)
+
 Simple golang app that catch webhooks from GitHub and send them to telegram group or as personal message.
 
 To run this app you need 3 things:
