@@ -4,6 +4,8 @@
 
 Simple golang app that catch webhooks from GitHub and send them to telegram group or as personal message.
 
+![logo](https://raw.githubusercontent.com/mxssl/go-github-webhook-to-tg/master/img/C.png)
+
 To run this app you need 3 things:
 *  Configure webhooks in your GitHub repo setting
 *  Telegram bot id from [BotFather](https://t.me/BotFather)
