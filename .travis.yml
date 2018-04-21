@@ -10,4 +10,5 @@ before_install:
   - dep ensure
 
 script:
+  - go test -v
   - go build
